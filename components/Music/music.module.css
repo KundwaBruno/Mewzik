@@ -1,0 +1,87 @@
+.musicContainer {
+  flex: 0.5;
+  margin-top: -12px;
+}
+.musicListContainer {
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+.musicListContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.musicListContainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.categories {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.catego {
+  display: inline;
+  list-style: none;
+  margin: 0px 30px 0px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.catego.active {
+  background-color: #ff6230;
+  color: white;
+  font-weight: bold;
+  padding: 0px 20px 0px;
+  border-radius: 50px;
+}
+.musicThumbnail {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #fff5f2;
+  border-radius: 100px;
+  margin-bottom: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.playingIcon {
+  position: absolute;
+  right: 30px;
+  color: #ff6230;
+  font-size: 1.2rem;
+}
+.musicThumbnail:hover {
+  background-color: #fde7e0;
+  margin-left: 10px;
+}
+.musicArt {
+  flex: 0.1;
+  padding: 10px;
+}
+.musicDescription {
+  flex: 0.9;
+}
+.musicArt div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ff6230;
+  color: white;
+}
+.artist {
+  color: #f6a288;
+}
+
+.title {
+  font-weight: bold;
+  color: rgb(85, 84, 84);
+  font-size: 1.2rem;
+}
+.album {
+  color: rgb(153, 153, 153);
+}

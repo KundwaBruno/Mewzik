@@ -1,0 +1,49 @@
+.profileContainer {
+  width: 100%;
+  padding-top: 150px;
+  display: flex;
+}
+.updateProfile {
+  flex: 0.5;
+}
+.updateProfile div {
+  margin: 20px 0px 20px;
+}
+.input {
+  display: block;
+  width: 300px;
+  border: 1px solid #ff6230;
+  border-radius: 100px;
+  padding: 10px 20px 10px;
+  margin: 10px 0px 10px;
+  outline: none;
+}
+.button {
+  font-size: 1rem;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 30px 10px;
+  color: #ff6230;
+  transition: 0.2s;
+  cursor: pointer;
+  outline: none;
+}
+.updateProfile div button:hover {
+  background-color: #ff6230;
+  color: white;
+}
+.updateProfile h2 {
+  color: #ff6230;
+}
+
+.postSong h2 {
+  color: #ff6230;
+}
+.postSong div {
+  margin-bottom: 20px;
+}
+.postSong {
+  margin-left: 200px;
+  flex: 0.5;
+  width: 100px;
+}

@@ -1,0 +1,12 @@
+.layoutContainer {
+  position: relative;
+  width: 60vw;
+  height: 100vh;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .layoutContainer {
+    width: 90vw;
+  }
+}

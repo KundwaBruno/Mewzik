@@ -1,0 +1,43 @@
+.loginContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.form input {
+  display: block;
+  width: 300px;
+  border: 1px solid #ff6230;
+  border-radius: 100px;
+  padding: 10px 20px 10px;
+  margin: 10px 0px 10px;
+  outline: none;
+}
+
+.form h2 {
+  color: #ff6230;
+}
+
+.form button {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 30px 10px;
+  color: #ff6230;
+  transition: 0.2s;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #ff6230;
+  color: white;
+}
